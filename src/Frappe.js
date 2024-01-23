@@ -6,4 +6,4 @@ const Frappe = () => {
   )
 }
 
-export default Frappe
+export default Frappe;

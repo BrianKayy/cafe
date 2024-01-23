@@ -6,4 +6,4 @@ const Tea = () => {
   )
 }
 
-export default Tea
+export default Tea;
