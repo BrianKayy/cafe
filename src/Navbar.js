@@ -14,19 +14,7 @@ const Navbar = () => {
             </div>
            
         </div>
-        <div className="bottom">
-          
-            <Link to='/Breakfast'>BREAKFAST <hr /></Link>
-            <Link to='/Desserts'> DESSERTS <hr /></Link>
-            <Link to='/ColdDrinks'>  DRINKS<hr /></Link>
-            <Link to='/HotCoffee'> HOTCOFFEE<hr /></Link>
-            <Link to='/FilterCoffee'> FILTER-COFFEE<hr /></Link>
-            <Link to='/ColdCoffee'>COLD COFFEE<hr /></Link>
-            <Link to='/Juice'> JUICE <hr /></Link>
-            <Link to='/Tea'>TEA<hr /></Link>
-            <Link to='/Frappe'>FRAPPE<hr /></Link>
-            <Link to='/New'>NEW<hr /></Link>
-        </div>
+        
     </div>
   )
 }

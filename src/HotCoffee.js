@@ -1,9 +1,40 @@
 import React from 'react'
+import HotCoffe from './mydata5';
 
+const {Hcoffee} = HotCoffe;
 const HotCoffee = () => {
   return (
-    <div>HotCoffee</div>
+    <div className="big">
+
+    <div className="h1">
+    <h1>HOT COFFEE</h1>
+    </div>
+         
+    <div className='breakfast'>
+
+   {Hcoffee.map((coffee) =>{
+       console.log(coffee);
+       return( <div className="bfast">
+                  <div>
+                  <img src={coffee.image} alt={coffee.name} />
+                  </div>
+                  <div className='head'>
+                    <h3>{coffee.name}</h3>
+                    <h5>AED{coffee.price}</h5>
+                  </div>
+                  <div className='detail' >
+                    {coffee.details}
+                    <hr />
+                  </div>
+               </div>
+       )  
+
+
+   })}
+  </div>
+  </div>
+  
   )
 }
 
-export default HotCoffee
+export default HotCoffee;
