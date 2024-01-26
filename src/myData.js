@@ -156,7 +156,7 @@ const Bfast = {
         {
             id:  '21',
             name: 'PISTACHIO CROISSANT ',
-            price: '10',
+            price: '15',
             image: '',
             details: ''
         },

@@ -26,6 +26,8 @@ const  Breakfast = () => {
                       {fast.details}
                     </div>
                     <h5 className='head'>AED {fast.price}.00</h5>
+                    
+                    
                  </div>
          )  
 

@@ -17,16 +17,16 @@ const Home = () => {
   <div className='home'>
   <div className="navbar">
     <div className="bottom">
-<Link  to='/Breakfast'>BREAKFAST </Link> 
-<Link   to='/Desserts'> DESSERTS </Link> 
-<Link   to='/HotCoffee'> HOTCOFFEE</Link>
+<Link  to='/Breakfast'>BREAKFAST</Link> 
+<Link   to='/Desserts'>DESSERTS</Link> 
+<Link   to='/HotCoffee'>HOTCOFFEE</Link>
 <Link   to='/ColdCoffee'>COLD COFFEE</Link>
-<Link   to='/FilterCoffee'> FILTER-COFFEE</Link>
+<Link   to='/FilterCoffee'>FILTER-COFFEE</Link>
 <Link   to='/Frappe'>FRAPPE</Link>
 <Link   to='/Juice'> JUICE </Link> 
 <Link   to='/Tea'>TEA</Link>
 <Link   to='/New'>SUMMER-SPECIALS</Link>
-<Link   to='/ColdDrinks'>  DRINKS</Link> 
+<Link   to='/ColdDrinks'>DRINKS</Link> 
       
       </div>
 

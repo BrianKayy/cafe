@@ -25,7 +25,7 @@ const FilterCoffee = () => {
                   <div className='detail' >
                     {filter.details}
                   </div>
-                  <h5 className='head'>AED{filter.price}</h5>
+                  <h5 className='head'>AED {filter.price}.00</h5>
                </div>
        )  
 

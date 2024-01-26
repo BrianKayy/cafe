@@ -26,7 +26,7 @@ const Tea = () => {
                     {tea.details}
                     
                   </div>
-                  <h5 className='head'>AED{tea.price}</h5>
+                  <h5 className='head'>AED {tea.price}.00</h5>
                </div>
        )  
 

@@ -26,7 +26,7 @@ const Juice = () => {
                     {Jui.details}
                     
                   </div>
-                  <h5 className='head'>AED{Jui.price}</h5>
+                  <h5 className='head'>AED {Jui.price}.00</h5>
                </div>
        )  
    })}

@@ -26,7 +26,7 @@ const New = () => {
                     {special.details}
                     
                   </div>
-                  <h5 className='head'>AED{special.price}</h5>
+                  <h5 className='head'>AED {special.price}.00</h5>
                </div>
        )  
 

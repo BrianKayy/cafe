@@ -25,7 +25,7 @@ const Desserts = () => {
                   <div className='detail' >
                     {desserts.details}
                   </div>
-                  <h5 className='head'>AED{desserts.price}</h5>
+                  <h5 className='head'>AED {desserts.price}.00</h5>
                </div>
        )  
 

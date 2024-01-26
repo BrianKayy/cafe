@@ -27,7 +27,7 @@ const {Frap}   = Frapp;
                     {frappe.details}
                  
                   </div>
-                  <h5 className='head'>AED{frappe.price}</h5>
+                  <h5 className='head'>AED {frappe.price}.00</h5>
                </div>
        )  
 
