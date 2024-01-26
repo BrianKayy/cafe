@@ -25,7 +25,7 @@ const Home = () => {
 <Link   to='/Frappe'>FRAPPE</Link>
 <Link   to='/Juice'> JUICE </Link> 
 <Link   to='/Tea'>TEA</Link>
-<Link   to='/New'>SUMMER SPECIALS</Link>
+<Link   to='/New'>SUMMER-SPECIALS</Link>
 <Link   to='/ColdDrinks'>  DRINKS</Link> 
       
       </div>
