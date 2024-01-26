@@ -22,12 +22,11 @@ const ColdCoffee = () => {
                   </div>
                   <div className='head'>
                     <h3>{cold.name}</h3>
-                    <h5>AED{cold.price}</h5>
                   </div>
                   <div className='detail' >
                     {cold.details}
-                    <hr />
                   </div>
+                  <h5 className='head'>AED{cold.price}</h5>
                </div>
        )  
 

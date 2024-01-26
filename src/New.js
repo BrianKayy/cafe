@@ -20,12 +20,13 @@ const New = () => {
                   </div>
                   <div className='head'>
                     <h3>{special.name}</h3>
-                    <h5>AED{special.price}</h5>
+                   
                   </div>
                   <div className='detail' >
                     {special.details}
-                    <hr />
+                    
                   </div>
+                  <h5 className='head'>AED{special.price}</h5>
                </div>
        )  
 

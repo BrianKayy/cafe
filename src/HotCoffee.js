@@ -20,12 +20,12 @@ const HotCoffee = () => {
                   </div>
                   <div className='head'>
                     <h3>{coffee.name}</h3>
-                    <h5>AED{coffee.price}</h5>
+                  
                   </div>
                   <div className='detail' >
                     {coffee.details}
-                    <hr />
                   </div>
+                  <h5 className='head'>AED{coffee.price}</h5>
                </div>
        )  
 

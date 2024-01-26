@@ -14,35 +14,36 @@ import Frappe from './Frappe'
 
 const Home = () => {
   return (
-    <div className='home'>
-            <div className="navbar">
+  <div className='home'>
+  <div className="navbar">
     <div className="bottom">
+<Link  to='/Breakfast'>BREAKFAST </Link> 
+<Link   to='/Desserts'> DESSERTS </Link> 
+<Link   to='/HotCoffee'> HOTCOFFEE</Link>
+<Link   to='/ColdCoffee'>COLD COFFEE</Link>
+<Link   to='/FilterCoffee'> FILTER-COFFEE</Link>
+<Link   to='/Frappe'>FRAPPE</Link>
+<Link   to='/Juice'> JUICE </Link> 
+<Link   to='/Tea'>TEA</Link>
+<Link   to='/New'>SUMMER SPECIALS</Link>
+<Link   to='/ColdDrinks'>  DRINKS</Link> 
       
-      <Link to='/Breakfast'>BREAKFAST <hr /></Link>
-      <Link to='/Desserts'> DESSERTS <hr /></Link>
-      <Link to='/ColdDrinks'>  DRINKS<hr /></Link>
-      <Link to='/HotCoffee'> HOTCOFFEE<hr /></Link>
-      <Link to='/FilterCoffee'> FILTER-COFFEE<hr /></Link>
-      <Link to='/ColdCoffee'>COLD COFFEE<hr /></Link>
-      <Link to='/Juice'> JUICE <hr /></Link>
-      <Link to='/Tea'>TEA<hr /></Link>
-      <Link to='/Frappe'>FRAPPE<hr /></Link>
-      <Link to='/New'>SUMMER SPECIALS<hr /></Link>
-  </div>
-    </div>
+      </div>
+
+      </div>
+    
       <Breakfast></Breakfast>
+      <Desserts></Desserts>
       <HotCoffee></HotCoffee>
       <ColdCoffee></ColdCoffee>
       <FilterCoffee></FilterCoffee>
       <Frappe></Frappe>
-      <Desserts></Desserts>
       <Juice></Juice>
       <Tea></Tea>
-      <ColdDrinks></ColdDrinks>
       <New></New>
-    </div>
-    
-    
+      <ColdDrinks></ColdDrinks>
+  </div> 
+   
 
   ) 
 }

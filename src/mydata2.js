@@ -9,7 +9,7 @@ const Dessert = {
        },
        {
            id:  '2',
-           name: 'BROwnies',
+           name: 'BROWNIES',
            price: '12',
            image: '',
            details: '......................'

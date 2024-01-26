@@ -7,7 +7,7 @@ const Juice = () => {
     <div className="big">
 
     <div className="h1">
-    <h1>COLD DRINK</h1>
+    <h1>JUICES</h1>
     </div>
          
     <div className='breakfast'>
@@ -20,12 +20,13 @@ const Juice = () => {
                   </div>
                   <div className='head'>
                     <h3>{Jui.name}</h3>
-                    <h5>AED{Jui.price}</h5>
+
                   </div>
                   <div className='detail' >
                     {Jui.details}
-                    <hr />
+                    
                   </div>
+                  <h5 className='head'>AED{Jui.price}</h5>
                </div>
        )  
    })}

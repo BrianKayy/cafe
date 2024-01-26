@@ -81,8 +81,85 @@ const Bfast = {
             name: 'TOAST-SCRAMBLED',
             price: '28',
             image: t,
-            details: 'Brown-toast, banana, Strawberries, Blueberries, Peanut-butter'
-        }
+            details: 'Brown-toast, Avocado, scrambled eggs, fetacheese, Pomegranate, Oregano'
+        },
+        {
+            id:  '11',
+            name: 'FRENCH TOAST',
+            price: '....',
+            image: '',
+            details: ''
+        },
+        {
+            id:  '12',
+            name: 'FRIES',
+            price: '15',
+            image: '',
+            details: ''
+        },
+        {
+            id:  '13',
+            name: 'HOT DOG CHICKEN',
+            price: '28',
+            image: '',
+            details: ''
+        },
+        {
+            id:  '14',
+            name: 'HOT DOG BEEF',
+            price: '28',
+            image: '',
+            details: ''
+        },
+        {
+            id:  '15',
+            name: 'MARGARITA PIZZA',
+            price: '28',
+            image: '',
+            details: ''
+        },
+        {
+            id:  '16',
+            name: 'PEPPERONI PIZZA ',
+            price: '30',
+            image: '',
+            details: ''
+        },
+        {
+            id:  '17',
+            name: 'MUSHROOM PIZZA',
+            price: '31',
+            image: '',
+            details: ''
+        },
+        {
+            id:  '18',
+            name: ' PLAIN CROISSAINT',
+            price: '10',
+            image: '',
+            details: ''
+        },
+        {
+            id:  '19',
+            name: ' NUTTELLA CROISSANT',
+            price: '10',
+            image: '',
+            details: ''
+        },
+        {
+            id:  '20',
+            name: ' CHEESE CROISSAINT',
+            price: '10',
+            image: '',
+            details: ''
+        },
+        {
+            id:  '21',
+            name: 'PISTACHIO CROISSANT ',
+            price: '10',
+            image: '',
+            details: ''
+        },
     ]
 }
 
