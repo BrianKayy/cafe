@@ -1,31 +1,33 @@
+import s from './images/spanishSummer.jpg';
+import m from './images/mojitoB.jpeg';
 const Summer= {
     SummerSpecials:[
        {
            id:  '1',
            name: 'HIBISCUS BOTTLE',
            price: '70',
-           image: '',
-           details: '..............................'
+           image: s,
+           details: ''
        },
        {
            id:  '2',
            name: 'SPANISH LATTE BOTTLE',
            price: '70',
-           image: '',
-           details: '.....................'
+           image: s,
+           details: ''
        },
        {
            id:  '3',
            name: 'SUMMER COFFEE BOX ',
            price: '95',
            image: '',
-           details: '.....................'
+           details: ''
        },
        {
            id:  '4',
            name: 'SUMMER MOJITO BOX',
            price: '85',
-           image: '',
+           image: m,
            details: '10pieces'
        },
        {

@@ -1,47 +1,51 @@
+import sp from './images/spanishice.jpg';
+import a from './images/iceA.jpg';
+import m from './images/matchaC.jpg'
+import b from './images/blueSpanish.jpg'
 const Coldcoffee = {
     Coldc:[
        {
            id:  '1',
            name: 'ICED AMERICANO',
            price: '16',
-           image: '',
-           details: 'Esspresso,Ice,Water'
+           image: a,
+           details: ''
        },
        {
            id:  '2',
            name: 'ICED LATTE',
            price: '...',
-           image: '',
-           details: 'Espresso,Milk,Ice'
+           image: sp,
+           details: ''
        },
        {
            id:  '3',
            name: 'Iced SPANISH LATTE',
            price: '....',
-           image: '',
-           details: 'Espresso,Milk,Ice,Condesed-milk'
+           image: sp,
+           details: ''
        },
        {
            id:  '4',
            name: 'BLUE SPANISH LATTE',
            price: '...',
-           image: '',
-           details: '......................'
+           image: b,
+           details: ''
        },
        {
            id:  '5',
            name: 'ICE WHITE MOCHA',
            price: '...',
            image: '',
-           details: '.........................'
+           details: ''
        },
       
        {
            id:  '6',
            name: 'ICED MATCHA LATTE',
            price: '...',
-           image: '',
-           details: '...................................'
+           image: m,
+           details: ''
        },
        
    ]

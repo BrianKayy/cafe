@@ -1,3 +1,4 @@
+import w from './images/water.jpg'
 const Cdrink = {
     Colddrink:[
        {
@@ -11,7 +12,7 @@ const Cdrink = {
            id:  '2',
            name: 'SPARKLING WATER',
            price: '5',
-           image: '',
+           image: w,
            details: ''
        },
        {

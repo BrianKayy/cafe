@@ -1,32 +1,37 @@
+import p from './images/J1.jpg';
+import h from './images/Hibiscus.jpg';
+import s from './images/Smojito.jpg';
+import o from './images/orangeJ.jpg';
+import b from './images/Bmojito.jpg'
 const Juic  = {    
     juice:[
        {
            id:  '1',
            name: 'HIBISCUS',
            price: '17',
-           image: '',
-           details: '..............................'
+           image: h,
+           details: ''
        },
        {
            id:  '2',
            name: 'STRAWBERRY MOJITO',
            price: '15',
-           image: '',
-           details: '.....................'
+           image: s,
+           details: ''
        },
        {
            id:  '3',
            name: 'BLUEBERRY MOJITO',
            price: '15',
-           image: '',
-           details: '.....................'
+           image: b,
+           details: ''
        },
        {
            id:  '4',
            name: 'PASSION FRUIT MOJITO ',
            price: '15',
-           image: '',
-           details: '...........................'
+           image: p,
+           details: ''
        },
       
        {
@@ -34,21 +39,21 @@ const Juic  = {
            name: 'CASCARA ',
            price: '21',
            image: '',
-           details: '.....................'
+           details: ''
        },
        {
         id:  '6',
         name: 'LEMONADE',
         price: '16',
         image: '',
-        details: '........................'
+        details: ''
     },
     {
         id:  '7',
         name: 'FRESH ORANGE JUICE',
         price: '16',
-        image: '',
-        details: '.....................'
+        image: o,
+        details: ''
     },
       
    ]

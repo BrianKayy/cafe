@@ -8,8 +8,15 @@ import n from './images/Nuttella toast.jpeg';
 import p from './images/Peanut toast.jpeg';
 import s from './images/Scrambled egg.jpeg';
 import t from './images/ToastS.jpeg';
-
-
+import ft from './images/FrenchB.jpeg';
+import hd from './images/hotdog.jpeg';
+import pc from './images/plain.jpg';
+import cc from './images/cheese.jpg';
+import nc from './images/nutella.jpg';
+import cp from './images/pistachio.jpg';
+import ms from './images/mushroom.jpg';
+import mp from './images/mag.jpg';
+import pp from './images/pepperoni.jpg';
 
 const Bfast = {
      BreakFast:[
@@ -87,7 +94,7 @@ const Bfast = {
             id:  '11',
             name: 'FRENCH TOAST',
             price: '....',
-            image: '',
+            image: ft,
             details: ''
         },
         {
@@ -101,63 +108,63 @@ const Bfast = {
             id:  '13',
             name: 'HOT DOG CHICKEN',
             price: '28',
-            image: '',
+            image: hd,
             details: ''
         },
         {
             id:  '14',
             name: 'HOT DOG BEEF',
             price: '28',
-            image: '',
+            image: hd,
             details: ''
         },
         {
             id:  '15',
             name: 'MARGARITA PIZZA',
             price: '28',
-            image: '',
+            image: mp,
             details: ''
         },
         {
             id:  '16',
             name: 'PEPPERONI PIZZA ',
             price: '30',
-            image: '',
+            image: pp,
             details: ''
         },
         {
             id:  '17',
             name: 'MUSHROOM PIZZA',
             price: '31',
-            image: '',
+            image: ms,
             details: ''
         },
         {
             id:  '18',
             name: ' PLAIN CROISSAINT',
             price: '10',
-            image: '',
+            image: pc,
             details: ''
         },
         {
             id:  '19',
             name: ' NUTTELLA CROISSANT',
             price: '10',
-            image: '',
+            image: nc,
             details: ''
         },
         {
             id:  '20',
             name: ' CHEESE CROISSAINT',
             price: '10',
-            image: '',
+            image: cc,
             details: ''
         },
         {
             id:  '21',
             name: 'PISTACHIO CROISSANT ',
             price: '15',
-            image: '',
+            image: cp,
             details: ''
         },
     ]

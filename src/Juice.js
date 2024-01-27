@@ -7,7 +7,7 @@ const Juice = () => {
     <div className="big">
 
     <div className="h1">
-    <h1>JUICES</h1>
+    <h1>JUICES|MOJITO</h1>
     </div>
          
     <div className='breakfast'>
