@@ -135,6 +135,7 @@ font-family: 'Roboto Condensed', sans-serif;
   height: 14px;
 }
 .navbar .bottom{
+  background-color: #05386b;
   padding-top: 10px;
   height: auto;
   display: flex;
@@ -147,7 +148,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .navbar .bottom a{
   text-decoration: overline #808080 solid;
-  color: #05386b;
+  color: #fff;
   font-size: 16px;
   text-align: center;
   padding-top: 8px;
