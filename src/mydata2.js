@@ -28,7 +28,7 @@ const Dessert = {
        },
        {
         id:  '2',
-        name: ' PEANUT BUTTER BROWNIES ',
+        name: 'BROWNIES PEANUT',
         price: '12',
         image: bp,
         details: ''

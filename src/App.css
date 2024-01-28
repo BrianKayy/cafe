@@ -1,0 +1,27 @@
+button .top-btn-position{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    color: #333;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px){
+    button .top-btn-position{
+        position: fixed;
+        bottom: 25px;
+        right: 10px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 1px solid #000;
+        color: #333;
+        cursor: pointer;
+        z-index: 1;
+    }
+}

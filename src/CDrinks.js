@@ -27,7 +27,7 @@ const Cdrink = {
            name: '7Up',
            price: '3',
            image: '',
-           details: '..........................'
+           details: ''
        },
        {
            id:  '5',

@@ -1,6 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Quicksand:wght@400;500;600;700&family=Roboto+Condensed:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700&display=swap');
-  
-  @import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+ 
 
 
 body{
@@ -35,8 +35,8 @@ font-family: 'Roboto Condensed', sans-serif;
 .navbar .top header{
   color: #000;
   font-size: 45px;
-  font-weight: 500;
-  font-family: 'Changa', sans-serif;
+  font-weight: 400;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 
 .navbar .top a{
@@ -50,7 +50,7 @@ font-family: 'Roboto Condensed', sans-serif;
   border-left: 3px solid #000;
   height: 25px;
 }
-.navbar .bottom{
+.navbar .bottom ul{
   padding-top: 40px;
   height: 40px;
   display: flex;
@@ -59,7 +59,9 @@ font-family: 'Roboto Condensed', sans-serif;
   align-items: center;
 }
 
-.navbar .bottom a{
+.navbar .bottom  ul li{
+  cursor: pointer;
+  list-style: none;
   text-decoration: overline solid #808080;
   color: #05386b;
   font-size: 25px;
@@ -134,8 +136,8 @@ font-family: 'Roboto Condensed', sans-serif;
   border-left: 3px solid #111;
   height: 14px;
 }
-.navbar .bottom{
-  background-color: #05386b;
+.navbar .bottom ul{
+  background-color: #000;
   padding-top: 10px;
   height: auto;
   display: flex;
@@ -143,10 +145,13 @@ font-family: 'Roboto Condensed', sans-serif;
   align-content: center;
   align-items: center;
   flex-wrap: wrap;
+
 }
 
 
-.navbar .bottom a{
+.navbar .bottom ul li{
+  cursor: pointer;
+  display: flex;
   text-decoration: overline #808080 solid;
   color: #fff;
   font-size: 16px;
@@ -494,7 +499,7 @@ font-family: 'Roboto Condensed', sans-serif;
 .footer footer{
   color: #fff;
    font-size: 35px;
-   font-family: 'Stick No Bills', sans-serif;
+   font-family: 'Allerta Stencil', sans-serif;;
 }
 
 .footer .contact{

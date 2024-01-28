@@ -3,30 +3,30 @@ const T= {
        {
            id:  '1',
            name: 'ENGLISH BREAKFAST',
-           price: '..',
+           price: '17',
            image: '',
-           details: '..............................'
+           details: ''
        },
        {
            id:  '2',
            name: 'CAMOMILE TEA',
-           price: '..',
+           price: '17',
            image: '',
-           details: '.....................'
+           details: ''
        },
        {
            id:  '3',
            name: 'LEMON GRASS TEA',
-           price: '..',
+           price: '17',
            image: '',
-           details: '.....................'
+           details: ''
        },
        {
            id:  '4',
            name: 'EARLY GREY TEA',
-           price: '...',
+           price: '17',
            image: '',
-           details: '...........................'
+           details: ''
        },
      
    ]
