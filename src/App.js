@@ -9,7 +9,6 @@ import About from './About'
 function App() {
 
   return (
-  
      <Router>
         <div className="App">
             <Navbar/>
