@@ -19,62 +19,128 @@ font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
   width: 100%;
   display: block;
-  position: sticky;
-  z-index: 9999;
+  background-color: #fff;
 }
 
 .navbar .top{
-  display: block;
+  display: flex;
   text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  margin: 0;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
 }
+
 
 .links{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-.navbar .top header{
-  color: #000;
-  font-size: 45px;
-  font-weight: 400;
-  font-family: 'Allerta Stencil', sans-serif;
+
+.navbar .top img{
+  width: 250px;
+  height: 150px;
 }
 
 .navbar .top a{
+  padding: 0 10px;
   text-decoration: none;
   color: #000;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
 }
 
-.vl{
-  border-left: 3px solid #000;
-  height: 25px;
+
+
+.bottom{
+  margin-top: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
 }
-.navbar .bottom ul{
-  padding-top: 20px;
-  height: 70px;
+
+
+.bottom .group {
+  background-color: white;
   display: flex;
-  justify-content: space-around;
-  align-content: center;
+  padding-top: 10px;
+  line-height: 28px;
   align-items: center;
-  background-color: #000;
+  position: relative;
+  max-width: 450px;
+  justify-content: center;
+  margin-left: 60px;
+ }
+ 
+ .group input {
+  width: 100%;
+  height: 60px;
+  line-height: 25px;
+  padding: 0 1rem;
+  padding-left: 50px;
+  border: 1px solid #999;
+  border-radius: 17px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: .3s ease;
+ }
+ 
+ .input::placeholder {
+  color: #9e9ea7;
+ }
+ 
+ .input:focus, input:hover {
+  outline: none;
+  border-color: rgba(234,76,137,0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+ }
+ 
+ .icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+ }
+.navbar .bottom ul{
+  position: fixed;
+  width: 100%;
+  z-index: 1;  
+  padding-top: 20px;
+  background-color: #fff;
+  height: auto;
+  display: flex;
+  
 }
 
 .navbar .bottom  ul li{
+  width: fit-content;
+  white-space: nowrap;
+  padding: 3px;
   cursor: pointer;
+  margin-left: 32px;
   list-style: none;
-  text-decoration: overline solid #808080;
-  color: #fff;
+  color: #333;
   font-size: 25px;
-  font-weight: bold;
+  border: solid 1px #555;
+  border-radius: 15px;
+  font-weight: 400;
+  z-index: 1;
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
-
-.navbar .bottom a hr{
-  color: #05386b;
-  font-weight: bolder;
+.navbar .bottom  ul li:active{
+  color: #fff;
+  background-color: #000;
 }
+
 
 @-webkit-keyframes tracking-in-expand {
   0% {
@@ -105,68 +171,120 @@ font-family: 'Roboto Condensed', sans-serif;
 	.navbar{
     width: 100%;
     display: block;
-    position: relative;
-    z-index: 9999;
-  
+    background-color: #fff;
     
   }
   
   .navbar .top{
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
   }
   
   .links{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
-  .navbar .top header{
-    color: #000;
-    font-size: 30px;
-    font-weight: 500;
+
+  .navbar .top img{
+    width: 130px;
+    height: 60px;
   }
   
   .navbar .top a{
+    padding-right: 10px;
     text-decoration: none;
     color: #000;
-    font-size: 15px;
-     font-weight: 900
+    font-size: 17px;
+     font-weight: 600;
   }
   
-.vl{
-  border-left: 3px solid #111;
-  height: 14px;
+
+
+.bottom{ 
+  margin-top: 26px;
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
 }
-.navbar .bottom ul{
-  background-color: #000;
-  padding-top: 10px;
-  height: auto;
+.bottom .group {
+  background-color: white;
   display: flex;
-  justify-content: space-evenly;
-  align-content: center;
+  padding-top: 10px;
+  line-height: 28px;
   align-items: center;
-  flex-wrap: wrap;
-
+  position: relative;
+  max-width: 250px;
+  justify-content: center;
+  margin-left: 60px;
+ }
+ 
+ .group input {
+  width: 100%;
+  height: 30px;
+  line-height: 25px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 1px solid #999;
+  border-radius: 17px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: .3s ease;
+ }
+ 
+ .input::placeholder {
+  color: #9e9ea7;
+ }
+ 
+ .input:focus, input:hover {
+  outline: none;
+  border-color: rgba(234,76,137,0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+ }
+ 
+ .icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+ }
+ 
+.navbar .bottom ul{
+  background-color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
-
+.navbar .bottom ul::-webkit-scrollbar{
+  width: 0;
+}
 
 .navbar .bottom ul li{
-  cursor: pointer;
-  display: flex;
-  text-decoration: overline #808080 solid;
-  color: #fff;
+  white-space: nowrap;
+  padding: 2px;
+  color: #222;
   font-size: 16px;
-  text-align: center;
-  padding-top: 8px;
-  font-weight: bold;
-  flex-basis: 25%;
+  border-radius: 10px;
+  margin: 0 2px;
+  width: fit-content;
+  font-weight: 400px;
+  font-size: 15px;
+  border: 1px solid #777;
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
-.navbar .bottom .fa-solid{
-  font-size: 7px;
-}
 
 @-webkit-keyframes tracking-in-expand {
   0% {
@@ -268,7 +386,9 @@ font-family: 'Roboto Condensed', sans-serif;
   }
 }
 }
-
+ .new-class{
+  margin-top: 30px;
+ }
 .big{
   position: relative;
   display: block;
@@ -412,6 +532,11 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
  @media only screen and (max-width: 600px){
+
+  .new-class{
+    position: relative;
+    margin-top: 110px;
+  }
   
 .big{
   display: block;

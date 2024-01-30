@@ -2,32 +2,40 @@ const T= {
     TeA:[
        {
            id:  '1',
-           name: 'ENGLISH BREAKFAST',
+           name: 'CAMOMILE  BLOSSOMS TEA',
            price: '17',
            image: '',
            details: ''
        },
        {
            id:  '2',
-           name: 'CAMOMILE TEA',
+           name: 'ENGLISH CARAMEL TEA',
            price: '17',
            image: '',
            details: ''
        },
        {
            id:  '3',
-           name: 'LEMON GRASS TEA',
+           name: 'LEMON GRASS & GINGER TEA',
            price: '17',
            image: '',
            details: ''
        },
+
        {
-           id:  '4',
-           name: 'EARLY GREY TEA',
-           price: '17',
-           image: '',
-           details: ''
-       },
+        id:  '4',
+        name: 'ORGANIC BREAKFAST TEA',
+        price: '17',
+        image: '',
+        details: ''
+    },
+    {
+        id:  '5',
+        name: 'ORGANIC GREEN TEA',
+        price: '17',
+        image: '',
+        details: ''
+    },
      
    ]
 }
