@@ -42,8 +42,8 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navbar .top img{
-  width: 250px;
-  height: 150px;
+  width: 200px;
+  height: 100px;
 }
 
 .navbar .top a{
@@ -57,7 +57,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .bottom{
-  margin-top: 100px;
+  margin-top: 90px;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -74,7 +74,7 @@ font-family: 'Roboto Condensed', sans-serif;
   position: relative;
   max-width: 450px;
   justify-content: center;
-  margin-left: 60px;
+  margin-left: 460px;
  }
  
  .group input {
@@ -99,7 +99,7 @@ font-family: 'Roboto Condensed', sans-serif;
   outline: none;
   border-color: rgba(234,76,137,0.4);
   background-color: #fff;
-  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+  /* box-shadow: 0 0 0 4px rgb(234 76 137 / 10%); */
  }
  
  .icon {
@@ -131,16 +131,19 @@ font-family: 'Roboto Condensed', sans-serif;
   font-size: 25px;
   border: solid 1px #555;
   border-radius: 15px;
-  font-weight: 400;
+  font-weight: 500;
   z-index: 1;
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 .navbar .bottom  ul li:active{
   color: #fff;
-  background-color: #000;
+  background-color: #14a76c;
 }
-
+.navbar .bottom  ul li:hover{
+  color: #fff;
+  background-color: #14a76c;
+}
 
 @-webkit-keyframes tracking-in-expand {
   0% {
@@ -208,10 +211,9 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .bottom{ 
-  margin-top: 26px;
+  margin-top: 25px;
   display: block;
   background-color: #fff;
-  width: 100%;
   position: fixed;
   z-index: 1;
 }
@@ -228,7 +230,7 @@ font-family: 'Roboto Condensed', sans-serif;
  }
  
  .group input {
-  width: 100%;
+  width: 250px;
   height: 30px;
   line-height: 25px;
   padding: 0 1rem;
@@ -272,9 +274,9 @@ font-family: 'Roboto Condensed', sans-serif;
 
 .navbar .bottom ul li{
   white-space: nowrap;
-  padding: 2px;
+  padding: 3px;
   color: #222;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
   margin: 0 2px;
   width: fit-content;
@@ -387,7 +389,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 }
  .new-class{
-  margin-top: 30px;
+  margin-top: 200px;
  }
 .big{
   position: relative;

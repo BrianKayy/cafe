@@ -1,11 +1,12 @@
-import w from './images/water.jpg'
+import w from './images/water.jpg';
+import v from './images/voss.jpeg';
 const Cdrink = {
     Colddrink:[
        {
            id:  '1',
            name: 'VOSS',
            price: '10',
-           image: '',
+           image: v,
            details: ''
        },
        {

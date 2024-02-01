@@ -13,7 +13,7 @@ import hd from './images/hotdog.jpeg';
 import pc from './images/plain.jpg';
 import cc from './images/cheese.jpg';
 import nc from './images/nutella.jpg';
-import cp from './images/pistachio.jpg';
+import cp from './images/pistachioC.jpeg';
 import ms from './images/mushroom.jpg';
 import mp from './images/mag.jpg';
 import pp from './images/pepperoni.jpg';

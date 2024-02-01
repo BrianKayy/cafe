@@ -9,6 +9,7 @@ import bp from './images/browniesP.JPG'
 import d from './images/datec.jpg';
 import pm from './images/pava-medium.jpg'
 import pl from './images/pavaL.jpg'
+import sc from './images/Smores cho.jpeg';
 <image></image>
 const Dessert = {
     Desert:[
@@ -75,6 +76,13 @@ const Dessert = {
            image: se,
            details: ''
        },
+       {
+        id:  '8',
+        name: "S'MORES CHOCOLATE",
+        price: '27',
+        image: sc,
+        details: ''
+    },
        {
            id:  '7',
            name: 'ROCKY ROAD',
