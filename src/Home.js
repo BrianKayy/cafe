@@ -26,18 +26,18 @@ import Cdrink from './CDrinks';
 
 
 
-const {BreakFast} = Bfast;
-const {Coldc} = Coldcoffee;
-const {Colddrink} = Cdrink;
-const {Desert} = Dessert;
-const {Filter} = FilterC;
-const {Frap}   = Frapp;
-const {Hcoffee} = HotCoffe;
-const {juice} = Juic;
-const {TeA} = T;
-const {SummerSpecials} = Summer;
+// const {BreakFast} = Bfast;
+// const {Coldc} = Coldcoffee;
+// const {Colddrink} = Cdrink;
+// const {Desert} = Dessert;
+// const {Filter} = FilterC;
+// const {Frap}   = Frapp;
+// const {Hcoffee} = HotCoffe;
+// const {juice} = Juic;
+// const {TeA} = T;
+// const {SummerSpecials} = Summer;
 
-const Home = () => {
+  const Home = () => {
   const  breakfast = useRef(null);
   const  desserts = useRef(null);
   const  hotcoffee = useRef(null);

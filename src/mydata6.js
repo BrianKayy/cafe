@@ -4,6 +4,7 @@ import s from './images/Smojito.jpg';
 import o from './images/orangeJ.jpg';
 import b from './images/Bmojito.jpg';
 import c from './images/cascara.jpeg';
+import l from './images/lemonade.jpg';
 const Juic  = {    
     juice:[
        {
@@ -46,7 +47,7 @@ const Juic  = {
         id:  '6',
         name: 'LEMONADE',
         price: '16',
-        image: '',
+        image: l,
         details: ''
     },
     {
