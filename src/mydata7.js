@@ -1,10 +1,15 @@
+import c from './images/camomile.jpeg';
+import e from './images/englishT.jpeg';
+import l from './images/lemonG.jpeg';
+
+
 const T= {
     TeA:[
        {
            id:  '1',
            name: 'CAMOMILE  BLOSSOMS TEA',
            price: '17',
-           image: '',
+           image: c,
            details: ''
        },
        {
@@ -15,10 +20,17 @@ const T= {
            details: ''
        },
        {
+        id:  '2',
+        name: 'ORGANIC  ENGLISH  BREAKFAST',
+        price: '17',
+        image: e,
+        details: ''
+    },
+       {
            id:  '3',
            name: 'LEMON GRASS & GINGER TEA',
            price: '17',
-           image: '',
+           image: l,
            details: ''
        },
 

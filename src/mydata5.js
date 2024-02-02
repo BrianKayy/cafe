@@ -6,13 +6,14 @@ import f from './images/flatW.jpg';
 import m from './images/matchaH.jpg';
 import h from './images/hotchoco.jpeg'
 import sh from './images/hotcS.jpeg';
+import e from './images/essprssoh.jpeg';
 const HotCoffe = {
     Hcoffee:[
        {
            id:  '1',
            name: 'ESPRESSO ',
            price: '15',
-           image: '',
+           image: e,
            details: ''
        },
        {
@@ -109,14 +110,14 @@ const HotCoffe = {
     {
         id:  '15',
         name: 'HOT WHITE MOCHA',
-        price: '....',
+        price: '22',
         image: '',
         details: ''
     },
     {
         id:  '16',
         name: 'HOT MOCHA ',
-        price: '..',
+        price: '22',
         image: '',
         details: ''
     },

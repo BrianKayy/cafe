@@ -15,28 +15,28 @@ const Coldcoffee = {
        {
            id:  '2',
            name: 'ICED LATTE',
-           price: '...',
+           price: '17',
            image: sp,
            details: ''
        },
        {
            id:  '3',
            name: 'Iced SPANISH LATTE',
-           price: '....',
+           price: '22',
            image: sp,
            details: ''
        },
        {
            id:  '4',
            name: 'BLUE SPANISH LATTE',
-           price: '...',
+           price: '24',
            image: b,
            details: ''
        },
        {
            id:  '5',
            name: 'ICE WHITE MOCHA',
-           price: '...',
+           price: '22',
            image: '',
            details: ''
        },
@@ -44,7 +44,7 @@ const Coldcoffee = {
        {
            id:  '6',
            name: 'ICED MATCHA LATTE',
-           price: '...',
+           price: '25',
            image: m,
            details: ''
        },

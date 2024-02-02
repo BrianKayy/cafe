@@ -2,13 +2,15 @@ import c from './images/chemex.jpg';
 import a from './images/aeroP.jpg';
 import v from './images/v60cold.jpg';
 import cb from './images/coldB.jpg';
+import v6 from './images/v60h.jpeg';
+import sp from './images/symphony.jpeg';
 const FilterC = {
     Filter:[
        {
            id:  '1',
            name: 'HOT V- 60',
            price: '23',
-           image: '',
+           image: v6,
            details: ''
        },
        {
@@ -36,7 +38,7 @@ const FilterC = {
            id:  '5',
            name: 'SYPHON',
            price: '26',
-           image: '',
+           image: sp,
            details: ''
        },
        {
@@ -56,7 +58,7 @@ const FilterC = {
        {
         id:  '7',
         name: 'COLD BREW',
-        price: '...',
+        price: '23',
         image: cb,
         details: ''
     },

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRef } from 'react';
-import { useState } from 'react';
+// import { useState } from 'react';
 import Breakfast from "./Breakfast";
 import ColdDrinks from "./ColdDrinks";
 import Desserts from './Desserts';
@@ -12,32 +12,8 @@ import New from './New';
 import Tea from './Tea'
 import Frappe from './Frappe'
 import ScrolltoTop from './ScrolltoTop';
-import Summer from './mydata8';
-import T from './mydata7';
-import Juic from './mydata6';
-import HotCoffe from './mydata5';
-import Frapp from './mydata4';
-import FilterC from './mydata3';
-import Dessert from './mydata2';
-import Bfast from './myData';
-import Coldcoffee from './Coldcof';
-import Cdrink from './CDrinks';
 
-
-
-
-// const {BreakFast} = Bfast;
-// const {Coldc} = Coldcoffee;
-// const {Colddrink} = Cdrink;
-// const {Desert} = Dessert;
-// const {Filter} = FilterC;
-// const {Frap}   = Frapp;
-// const {Hcoffee} = HotCoffe;
-// const {juice} = Juic;
-// const {TeA} = T;
-// const {SummerSpecials} = Summer;
-
-  const Home = () => {
+const Home = () => {
   const  breakfast = useRef(null);
   const  desserts = useRef(null);
   const  hotcoffee = useRef(null);
@@ -55,14 +31,7 @@ import Cdrink from './CDrinks';
       behavior: 'smooth'
     })
   }
-  const [value, setValue]  = useState();
-  const [data, setData] = useState()
-  const onChange =(e)=>{
-    setValue(e.target.value);
-    
-  }
-
-
+   
 
 
 
@@ -74,11 +43,11 @@ import Cdrink from './CDrinks';
     <div className="bottom">
     <div class="group">
      <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
-      <input placeholder="Search for menu items" type="search" onChange={onChange} value={value} class="input"/>
+      <input placeholder="Search for menu items" type="search" class="input"/>
       </div>
       <div className="new">
       <ul> 
-       <li onClick={()=>scrollToSection(breakfast)} >BREAKFAST</li> 
+       <li onClick={()=>scrollToSection(breakfast)}>BREAKFAST</li> 
        <li onClick={()=>scrollToSection(desserts)}  >DESSERTS</li> 
        <li onClick={()=>scrollToSection(hotcoffee)}  >HOTCOFFEE</li>
        <li  onClick={()=>scrollToSection(coldcoffee)} >COLD COFFEE</li>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className='footer'>
-      <img src={logo} alt="" />
+     <Link  to="/"> <img src={logo} alt="" /> </Link> 
     </div>
   )
 }

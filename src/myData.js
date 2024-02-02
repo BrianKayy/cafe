@@ -65,7 +65,7 @@ const Bfast = {
         {
             id:  '7',
             name: 'NUTELLA-TOAST',
-            price: '21',
+            price: '19',
             image: n,
             details: 'Brown-toast, banana, Strawberries, Blueberries, Nutella,'
         },
@@ -93,7 +93,7 @@ const Bfast = {
         {
             id:  '11',
             name: 'FRENCH TOAST',
-            price: '....',
+            price: '28',
             image: ft,
             details: ''
         },
